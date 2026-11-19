@@ -1,0 +1,135 @@
+body {
+    color: gray;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient(#a2d2ff,#efb0c8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p  {
+    text-shadow: 0px 0px 5px white;
+}
+
+#bday-age  {
+    background: #efb0c8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#bday-date {
+    margin: 0;
+    background: #efb0c8;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#celebrant-pic {
+    border: 6px solid #efb0c8;
+    border-radius: 50%;
+    width: 150px;
+    object-fit: cover;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#first-gift {
+    margin: 50px 0 0 0;
+}
+ 
+.gift-cover {
+    background-image: url("media/darkgift.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    border: 6px solid #efb0c8;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.gift-cover:hover {
+    background-image: url("media/gif1.webp");
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+}
+
+.gift-title {
+    margin: 0 0 5px 0;
+}
+
+.hint {
+    margin: 0 0 10px 0;
+}
+
+#second-gift {
+    margin: 50px 0 0 0;
+}
+
+#second-gift .gift-cover:hover{
+    background-image: url("media/giphy.webp");
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+}
+
+#third-gift {
+    margin: 50px 0 0 0;
+}
+
+#third-gift .gift-cover:hover{
+    background-image: url("media/giphy2.webp");
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+}
+
+#fourth-gift{
+    margin: 50px 0 50px 0;
+}
+
+#fourth-gift .gift-cover:hover{
+    background-image: url("media/giphy3.webp");
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+} 
+
+#warning .gift-cover{
+    background-image:url("media/newdark.jpeg");
+    background-size:cover;
+    background-position: center;
+    margin: 0 0 50px 0; 
+    height: 200px;
+    width: 600px;
+    
+}
+
+#warning .gift-cover:hover{
+     background-image:url("media/momento.webp");
+    background-size:cover;
+    padding: 0;
+    margin: 0 0 50px 0; 
+    width: 650px;
+    height: 400px;
+}
+
+.footer {
+    width: 400px;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    margin: 0 0 25px 0;
+}
+
+a {
+    color: gray;
+}
